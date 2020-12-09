@@ -1,4 +1,4 @@
-# Deploying-to-Azure-for-CSA
+# Deploying-to-Azure
 
 <br />
 
