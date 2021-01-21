@@ -40,7 +40,7 @@
         "vnetId": "[parameters('virtualNetworkId')]",
         "subnetRef": "[resourceID(parameters('vnetResourceGroup'), 'Microsoft.Network/virtualNetWorks/subnets', parameters('virtualNetworkId'), parameters('subnetName'))]",
 
-        "virtualMachineSize": "Standard_D2s_v3",
+        "virtualMachineSize": "Standard_DS1_v2",
 
         "virtualMachineName": "DC-SVR",
         "networkInterface": "[concat(variables('virtualMachineName'), '-NIC')]",
