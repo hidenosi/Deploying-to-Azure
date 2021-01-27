@@ -183,7 +183,7 @@ ARM テンプレートは、複数リソースを展開する際の再利用性�
 
 ### リソース作成時に指定する項目のパラメーター化
 
-※ [サンプル コード](#https://github.com/hiroyay-ms/Deploying-to-Azure/blob/main/Hands-on-Lab/Sample%20Code.md)
+※ [Sample Code](https://github.com/hiroyay-ms/Deploying-to-Azure/blob/main/Hands-on-Lab/Sample%20Code.md)
 
 1. parameters セクションにパラメーターを追加
 
