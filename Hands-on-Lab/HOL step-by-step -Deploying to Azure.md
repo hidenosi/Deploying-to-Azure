@@ -377,7 +377,7 @@ Azure Resource Manager (ARM) テンプレートが保存されている GitHub �
   - Azure CLI で "**az ad sp create-for-rbac**" コマンドを使用して作成
 
     ```
-    az ad sp create-for-rbac --name http://{myApp} --role Contributor --scopes /subscriptions/{subscriptonId}/resourceGroups/{resourceGroup} --sdk-auth
+    az ad sp create-for-rbac --name "http://{myApp}" --role Contributor --sdk-auth
     ```
 
     ＊{myApp}: 任意の名前
