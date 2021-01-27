@@ -183,6 +183,8 @@ ARM テンプレートは、複数リソースを展開する際の再利用性�
 
 ### リソース作成時に指定する項目のパラメーター化
 
+※ [Sample Code](https://github.com/hiroyay-ms/Deploying-to-Azure/blob/main/Hands-on-Lab/Sample%20Code.md)
+
 1. parameters セクションにパラメーターを追加
 
     <img src="images/E1-T1-4-1-parameters.png" width="600" />
@@ -377,7 +379,7 @@ Azure Resource Manager (ARM) テンプレートが保存されている GitHub �
   - Azure CLI で "**az ad sp create-for-rbac**" コマンドを使用して作成
 
     ```
-    az ad sp create-for-rbac --name http://{myApp} --role Contributor --scopes /subscriptions/{subscriptonId}/resourceGroups/{resourceGroup} --sdk-auth
+    az ad sp create-for-rbac --name "http://{myApp}" --role Contributor --sdk-auth
     ```
 
     ＊{myApp}: 任意の名前
